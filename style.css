@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #121212, #1f1f1f);
@@ -134,6 +134,10 @@ h1, h2, h3 {
 .skill:hover {
     transform: translateY(-10px);
     background: #f1c40f;
+    color: #121212;
+}
+
+.skill:hover > h3{
     color: #121212;
 }
 
