@@ -2,7 +2,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #121212, #1f1f1f);
+    background: linear-gradient(135deg, #121212, #8f6060);
     color: #f1f1f1;
     line-height: 1.6;
 }
@@ -31,6 +31,7 @@ h1, h2, h3 {
     position: relative;
 }
 
+
 #introduction h1 span {
     display: block;
     font-size: 3rem;
@@ -44,6 +45,10 @@ h1, h2, h3 {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #fff;
+}
+
+#full-name {
+    color: rgb(35, 199, 211);
 }
 
 #introduction-paragraph {
