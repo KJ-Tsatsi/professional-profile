@@ -36,7 +36,6 @@ h1, h2, h3 {
     display: block;
     font-size: 3rem;
     font-weight: bold;
-    animation: fadeIn 2s ease;
 }
 
 #introduction h2 {
@@ -64,7 +63,6 @@ h1, h2, h3 {
 
 #profile-image {
     margin-top: 2rem;
-    animation: bounceIn 2s;
 }
 
 #profile-image img {
