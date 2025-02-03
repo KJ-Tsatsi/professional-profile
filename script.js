@@ -38,7 +38,8 @@ function display(data) {
 
     const locationDiv = document.getElementById("location");
     locationDiv.innerHTML = `<h2>${location}</h2>
-                            <p>${temp} C ${time.substring(11, 16)}</p>`
+                            <p>${temp} C ${time.substring(11, 16)}</p>
+                            <img src="https://cdn.weatherapi.com/weather/64x64/night/176.png" alt="Weather Icon"></img>`
     
 }
 
